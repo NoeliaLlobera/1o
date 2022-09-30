@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 2px;
+}
+h1,h2{
+    text-align: center;
+}
+h1{
+    margin: 30px auto 10px;
+}
+h2{
+    margin: 0px auto 20px;
+    font-weight: lighter;
+}
+.legend{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+
+    .quadre{
+        height: 10px;
+        width: 10px;
+        border-radius: 2px;
+        background-color: grey;
+    }
+    .label{
+        margin-left: -3px;
+    }
+
+    // colors llegenda
+    .quadre:nth-of-type(1){
+        background-color:#30cfcc ;
+    }
+    .quadre:nth-of-type(2){
+        background-color: #22918f ;
+    }
+    .quadre:nth-of-type(3){
+        background-color: #edad08 ;
+    }
+    .quadre:nth-of-type(4){
+        background-color:  #F0ff09 ;
+    }
+    .quadre:nth-of-type(5){
+        background-color:  #A6a6a6 ;
+    }
+
+}
+
+a{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+a:hover{
+    color: gray;
+}
+a:nth-of-type(2){
+    cursor: default;
+}
+a:nth-of-type(2):hover{
+    cursor: default;
+    color: black;
+}
+a:nth-of-type(5){
+    cursor: default;
+}
+a:nth-of-type(5):hover{
+    cursor: default;
+    color: black;
+}
+
+
+
+h3{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.infogram{
+    width: 50%; 
+    min-width: 350px;
+    margin: 0px auto;
+}
+
+#preJxC{
+    display: none;
+}
+#preERC{
+    display: none;
+}
+#preCUP{
+    display: none;
+}
+
+#enrere{
+    position: relative;
+    left:40px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    display: block;
+    height: 30px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    border: unset;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid black;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+#enrere:hover{
+    background-color: white;
+}

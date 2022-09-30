@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="https://www.koolchart.com/demo/LicenseKey/KoolChartLicense.js"></script>
+    <script src="https://www.koolchart.com/demo/KoolChart/JS/KoolChart.js"></script>
+    <link rel="stylesheet" href="https://www.koolchart.com/demo/KoolChart/Assets/Css/KoolChart.css" />
+    <script>
+        function resizeIframe(obj) {
+          obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+      </script>
+</head>
+
+<body>
+    <h1>Radiografia del votant independentista</h1>
+    <div id="flo">
+        <h2>Any 2022</h2>
+        <!-- LLEGENDA -->
+        <div class="legend">
+            <div class="quadre"></div>
+            <a onclick="mJxC()">
+                <p class="label">Junts per Catalunya</p>
+            </a>
+            <div class="quadre"></div>
+            <a>
+                <p class="label">Junts pel Sí</p>
+            </a>
+            <div class="quadre"></div>
+            <a onclick="mERC()">
+                <p class="label">ERC</p>
+            </a>
+            <div class="quadre"></div>
+            <a onclick="mCUP()">
+                <p class="label">CUP</p>
+            </a>
+            <div class="quadre"></div>
+            <a>
+                <p class="label">Altres</p>
+            </a>
+        </div>
+        <div class="flourish-embed" data-src="story/1697352"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    </div>
+
+    <!-- Junts per Catalunya -->
+    <div id="preJxC">
+        <h3>Què preocupa més al votant de Junts per Catalunya?</h3>
+        <p style="text-align: center">
+            <em>*2017 dades de la coalició Junts pel Sí</em>
+        </p>
+        <div class="infogram" style="width: 50%; margin: 0px auto">
+            <script id="infogram_0_8d537721-4dcc-465c-b029-9d13e29f7e42" title=""
+                src="https://e.infogram.com/js/dist/embed.js?aqW" type="text/javascript"></script>
+        </div>
+        <button id="enrere" onclick="ocJxC()">&#129136;</button>
+    </div>
+
+    <!-- ERC -->
+    <div id="preERC">
+        <h3>Què preocupa més al votant d'ERC?</h3>
+        <p style="text-align: center">
+            <em>*2017 dades de la coalició Junts pel Sí</em>
+        </p>
+        <div class="infogram">
+            <script id="infogram_0_ceebbec6-60e1-4fea-b6d9-6295bac1bbaf" title="Copy: Junts per Catalunya"
+                src="https://e.infogram.com/js/dist/embed.js?CGm" type="text/javascript"></script>  
+        </div>
+        <button id="enrere" onclick="ocERC()">&#129136;</button>
+        
+    </div>
+    <!-- ERC -->
+    <div id="preCUP">
+        <h3>Què preocupa més al votant de la CUP?</h3>
+        <div class="infogram">
+            <script id="infogram_0_36c872f9-87fd-40af-8efe-88172ca4f6a7" title="Copy: ERC"
+                src="https://e.infogram.com/js/dist/embed.js?qcL" type="text/javascript"></script>
+        </div>
+        <button id="enrere" onclick="ocCUP()">&#129136;</button>
+    </div>
+
+    <script id="infogram_0_36c872f9-87fd-40af-8efe-88172ca4f6a7" title="Copy: ERC"
+        src="https://e.infogram.com/js/dist/embed.js?qcL" type="text/javascript"></script>
+</body>
+
+</html>
